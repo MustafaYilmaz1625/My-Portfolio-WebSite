@@ -1,23 +1,24 @@
 import "./App.css";
-import { useFormik } from "formik";
+import Signup from "./components/Signup";
+// import { useFormik } from "formik";
 
 function App() {
-  const { handleChange, handleSubmit, values } = useFormik({
-    initialValues: {
-      firstName: "mustafa",
-      lastName: "yılmaz",
-      email: "musta.yilmaz@gmail.com",
-      gender: "male",
-      hobies: [],
-      country: "",
-    },
-    onSubmit: (values) => {
-      console.log(values);
-    },
-  });
+  // const { handleChange, handleSubmit, values } = useFormik({
+  //   initialValues: {
+  //     firstName: "mustafa",
+  //     lastName: "yılmaz",
+  //     email: "musta.yilmaz@gmail.com",
+  //     gender: "male",
+  //     hobies: [],
+  //     country: "",
+  //   },
+  //   onSubmit: (values) => {
+  //     console.log(values);
+  //   },
+  // });
   return (
     <div className="App">
-      <form onSubmit={handleSubmit}>
+      {/* <form onSubmit={handleSubmit}>
         <label htmlFor="firstName">First Name</label>
         <input
           name="firstName"
@@ -111,7 +112,9 @@ function App() {
         <br />
 
         <code>{JSON.stringify(values)}</code>
-      </form>
+      </form> */}
+
+      <Signup />
     </div>
   );
 }
