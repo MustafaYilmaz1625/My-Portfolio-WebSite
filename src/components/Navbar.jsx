@@ -4,12 +4,10 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaLinkedinIn,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo1.png";
-import { Link } from "react-scroll";
+import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [nav, SetNav] = useState(false);
@@ -19,7 +17,12 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#071087] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
+        <img
+          src={Logo}
+          alt="Logo Image"
+          style={{ width: "95px" }}
+          className="rounded-full"
+        />
       </div>
 
       <ul className="hidden md:flex">
@@ -51,7 +54,7 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <a href="/about">About</a>
+          <a href="/">Home</a>
         </li>
         <li className="py-6 text-4xl">
           <a href="/about">About</a>
