@@ -1,33 +1,68 @@
-import WorkIm from "../assets/projects/workImg.jpeg";
-import RealEst from "../assets/projects/realestate.jpg";
+import Shopping from "../assets/projects/shopping.png";
+import Todo from "../assets/projects/todo.png";
+import Contacts from "../assets/projects/contacts.png";
+import Movies from "../assets/projects/movies.png";
+import Adventure from "../assets/projects/ADVENTURE.png";
+import Crud from "../assets/projects/crud.png";
+import Redux from "../assets/projects/redux.png";
+import Tailwindcss from "../assets/projects/tailwind.png";
+
 
 export const data = [
   {
     id: 1,
-    name: "React JS Application",
-    image: WorkIm,
+    name: "My Todo List",
+    image: Todo,
     github: "",
-    live: "",
+    live: "https://myto-dolistt.netlify.app/",
   },
   {
     id: 2,
-    name: "React JS Application",
-    image: RealEst,
+    name: "Contacts",
+    image: Contacts,
     github: "",
-    live: "",
+    live: "https://contactss-appp.netlify.app/",
   },
   {
     id: 3,
-    name: "React JS Application",
-    image: WorkIm,
+    name: "Fake Movies",
+    image: Movies,
     github: "",
-    live: "",
+    live: "https://fake-movies-app.netlify.app/",
   },
   {
     id: 4,
-    name: "React JS Application",
-    image: RealEst,
+    name: "Shopping",
+    image: Shopping,
     github: "",
-    live: "",
+    live: "https://shoppingg-app.netlify.app/",
+  },
+  {
+    id: 5,
+    name: "Web Page Responsive",
+    image: Adventure,
+    github: "",
+    live: "https://webpage-responsivee.netlify.app/#",
+  },
+  {
+    id: 6,
+    name: "TypeScript React-CRUD",
+    image: Crud,
+    github: "",
+    live: "https://react-typescript-crudd.netlify.app/",
+  },
+  {
+    id: 7,
+    name: "React-Redux-Shopping",
+    image: Redux,
+    github: "",
+    live: "https://reduxshopping.netlify.app/",
+  },
+  {
+    id: 8,
+    name: "Tailwindcss-Card",
+    image: Tailwindcss,
+    github: "",
+    live: "https://tailwindcss-cardd.netlify.app/",
   },
 ];
