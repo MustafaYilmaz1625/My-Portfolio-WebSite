@@ -22,7 +22,7 @@ const Home = () => {
             className="lg:hidden flex justify-between items-center font-bold w-full text-gray-300  hover:text-pink-600 "
             href="https://github.com/MustafaYilmaz1625"
           >
-            MY Github
+            Github Link..
           </a>
         </p>
         <div>
